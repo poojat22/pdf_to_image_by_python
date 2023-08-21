@@ -15,4 +15,4 @@ old_pdf= convert_from_path(pdf_file_path,
                           poppler_path=r"D:\Testing\power_bi\poppler-23.08.0\Library\bin")
 
 for i in range(len(old_pdf)):
-    old_pdf[i].save(f"{directory_path}\ABMCPL_PB_"+str(i)+".jpg","JPEG")
+    old_pdf[i].save(f"{directory_path}\PB_"+str(i)+".jpg","JPEG")
