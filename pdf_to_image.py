@@ -4,8 +4,6 @@ from datetime import date
 # Get current Date
 current_date=date.today().strftime(("%d_%b_%Y"))
 
-print(current_date)
-
 # File path with directory path and current date
 directory_path = r"D:\Testing\power_bi\output"
 pdf_file_path= f"{directory_path}\{current_date}_PowerBi_Dashboard.pdf"
